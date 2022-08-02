@@ -3,7 +3,7 @@ import { TextInput, StyleSheet } from "react-native";
 import { useFocusEffect, useNavigation } from "@react-navigation/native";
 import { ScreenNavigationStackProp } from "../App";
 import { getNote } from "../services/noteStoreService";
-import { SaveNote } from "../screens/EditNoteScreen";
+import { SaveNote } from "./SaveNote";
 
 type Props = {
   noteId?: string;
